@@ -16,5 +16,5 @@ def mod(n,m):
 def rem(n,m):
   s=n/m
   sm=n//m
-  d=(s-sm)*m
+  d=int((s-sm)*m)
   return d
